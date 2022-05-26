@@ -1,0 +1,18 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Yahoo App Test">
+
+    <test name="Yahoo Suite">
+        <parameter name="browser" value="safari"/>
+        <parameter name="url" value="https://login.yahoo.com/"/>
+        <parameter name="emailId" value="dimagadjilla@gmail.com"/>
+
+
+        <classes>
+            <class name="com.testng_parameters.YahooTest" />
+        </classes>
+
+    </test>
+
+
+</suite>
